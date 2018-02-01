@@ -1,0 +1,40 @@
+    header, nav, footer, #content {
+        width: 960px;
+        margin: 0 auto; 
+        text-align: center; 
+    }
+    
+    body {
+        background-color: #262626;
+        color: white;
+        font-family: 'Montserrat';
+    }
+    
+    #csumb{
+        width:30%;
+    }
+    
+    footer {
+        padding-top:50px;
+        color: #800000;
+        clear: left;
+    }
+    
+    h1 {
+        font-size: 4em;
+        margin-bottom: 0px;
+    }
+
+    nav a {
+        padding:15px;
+        padding-bottom:4px;
+        font-size: 1.8em;
+        color: white;
+        text-decoration: none;
+    }
+    
+    nav a:hover, #current { 
+         border-bottom:2px #800000 solid;
+         font-size: 30px;
+         transition: .5s;
+    }
